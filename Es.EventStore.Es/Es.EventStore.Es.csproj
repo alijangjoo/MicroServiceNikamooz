@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EventStore.Client" Version="20.6.0" />
+    <PackageReference Include="Marten" Version="3.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Es.EventStore.MartenDb\Es.EventStore.MartenDb.csproj" />
+    <ProjectReference Include="..\Es.Framework\Es.Framework.csproj" />
+  </ItemGroup>
+
+</Project>
